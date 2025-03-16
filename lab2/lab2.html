@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список задач</title>
+    <link rel="stylesheet" href="lab2.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Список задач</h1>
+        <input type="text" id="new-task" placeholder="Введите новую задачу">
+        <div class="controls">
+            <div class="filters">
+                <button id="filter-all">Все</button>
+                <button id="filter-active">Активные</button>
+                <button id="filter-completed">Выполненные</button>
+            </div>
+            <button id="add-task">Добавить задачу</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="lab2.js"></script>
+</body>
+</html>
